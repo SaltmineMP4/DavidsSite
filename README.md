@@ -1,2 +1,2 @@
 # DavidsSite
-SaltmineMP4/DavidsSite.github.io
+DavidsSite.github.io
