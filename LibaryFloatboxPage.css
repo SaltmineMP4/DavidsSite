@@ -2,7 +2,7 @@
 	display: flex;
 	flex-flow: row wrap;
 	align-items:flex-start;
-    justify-content: baseline;
+    justify-content: center;
 }
 .libaryItem {
 	width: 355px;
