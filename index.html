@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="DavidsHomePageStyle.css">
+    <link rel="stylesheet" href="DavidsHomePageStyle.css navmen.css">
     <title>David's Homepage</title>
 </head>
 <body>
-    lorum ipsum test
-<div class="HomepageMenu">
-    <div class="HomPagMenuItem" id="HpMenuItem-1">Homepage</div>
-    <div class="HomPagMenuItem" id="HpMenuItem-2"><a href="LibaryPage.html">Libarypage</a></div>
-    <div class="HomPagMenuItem" id="HpMenuItem-3"><a href="OverMij.html">Over Mij</a></div>
-    <div class="HomPagMenuItem" id="HpMenuItem-4">Contact</div>
-</div>
-<script src="DavidsHomepageSlider.js"></script>    
+    <div class="PageMenu" id="navmenu">
+    <a href="index.html" class="active">Home</a><br>
+        <a href="LibaryPage.html">Libary</a><br>
+        <a href="OverMij.html">Over Mij</a><br>
+        <a href="contact.html">Contact</a><br>
+        <a href="javascript:void(0);" class="icon" onclick="navmenfunc()">
+            <i class="fa fa-bars"></i>
+    </div>
+<script src="navmenu.js"></script>
 </body>
 </html>
