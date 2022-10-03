@@ -8,14 +8,16 @@
     <title>David's contact page</title>
 </head>
 <body>
-<div class="PageMenu" id="navmenu">
-    <a href="index.html">Home</a>
+    <div class="navbar">
+        <a href="index.html" class="activepage">Home</a>
+    <button class="dropbtn" onclick="navbardropdown()">Menu</button>
+    <div class="dropdown-content" id="dropdownMenu">
+        <a href="index.html" class="activepage">Home</a>
         <a href="LibaryPage.html">Libary</a>
         <a href="OverMij.html">Over Mij</a>
-        <a href="contact.html"  class="activepage">Contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="addresponsiveclass()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>    
+        <a href="contact.html">Contact</a>
+    </div>
+    </div>
+    <script src="navmenu.js"></script>   
 </body>
 </html>
