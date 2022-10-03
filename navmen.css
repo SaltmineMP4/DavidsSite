@@ -1,15 +1,19 @@
 .navbar {
+	display: flex;
+	justify-content: flex-end;
 	overflow: hidden;
 	background-color: rgb(185, 185, 185);
 	font-family: Arial, Helvetica, sans-serif;
+	height: 32px;
+  }
+  .homebutton {
+	position: absolute;
+	height: 32px;
   }
   
   .navbar a {
 	font-size: 16px;
 	color: black;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
   }
   
   .dropdown {
@@ -33,6 +37,7 @@
   }
   
   .dropdown-content {
+	justify-content: flex-end;
 	position: absolute;
 	display: none;
 	background-color: #f9f9f9;
@@ -46,7 +51,7 @@
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
-	text-align: left;
+	text-align: center;
   }
   
   .dropdown-content a:hover {
